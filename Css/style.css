@@ -137,6 +137,7 @@ body {
         margin: 5px;
 }
 
+/* Button span*/
 .button span {
         cursor: pointer;
         display: inline-block;
@@ -144,6 +145,7 @@ body {
         transition: 0.5s;
 }
 
+/* Button span after*/
 .button span:after {
         content: '\00bb';
         position: absolute;
@@ -153,11 +155,59 @@ body {
         transition: 0.5s;
 }
 
+/* Button hover span */
 .button:hover span {
         padding-right: 25px;
 }
 
+/* Button hover span after */
 .button:hover span:after {
         opacity: 1;
         right: 0;
+}
+
+/* About */
+.about{
+        text-align: center;
+}
+
+/* About main */
+.about__main{
+        padding-top: 80px;
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        gap: 1em;
+        overflow: hidden;
+        grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+/* About imgs */
+.about__imgs{
+        display: grid;
+        gap: 1em;
+        justify-items: center;
+        width: 220px;
+        overflow: hidden;
+        margin: 0 auto;
+}
+
+/* About img */
+.about__img{
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        border-radius: 8px;
+}
+
+/* About Paragraph */
+.about__paragraph{
+        line-height: 1.4;
+}
+
+/* Subtitle */
+.subtitle{
+        color: var(--color-title);
+        font-size:  2rem;
+        margin-bottom: 2px;
 }
