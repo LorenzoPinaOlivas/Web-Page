@@ -167,7 +167,6 @@ body {
 }
 
 
-
 /* About */
 .about{
         text-align: center;
@@ -204,7 +203,7 @@ body {
 
 /* About Paragraph */
 .about__paragraph{
-        line-height: 1.4;
+        line-height: 1.2;
 }
 
 /* Subtitle */
@@ -255,19 +254,46 @@ body {
 .objectives{
         text-align: center;
 }
+
+/* objectives table */
 .objectives__table{
         padding-top: 60px;
         display: flex;
         flex-wrap: wrap;
-        gap: 2.5em;
+        gap: 3.5em;
         justify-content: space-evenly;
         align-items: center;
 }
 
+/* objectives element */
 .objectives__element{
         background-color: #F2B613;
         text-align: center;
         border-radius: 10px;
         width: 330px;
         padding: 40px;
+}
+
+/* objectives name */
+.objectives__name{
+        font-size: 2rem;
+}
+
+/* objectives picture */
+.objectives__picture{
+        max-width: 500px;
+}
+
+/* objectives img */
+.objectives__img{
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 5px;
+        border-radius: 8px;
+}
+
+/* objectives features */
+.objectives__features{
+        line-height: 1.2;
 }
